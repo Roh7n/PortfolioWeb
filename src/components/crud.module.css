@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#navbar>a{
+    height: inherit;
+    width: 50%;
+    background-color:grey;
+    text-align: center;
+    color: rgb(9, 9, 31);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+     
+}
+
+
+#form{
+    background-color: red;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#form>form{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form>form>input{
+    height: 50px;
+    width: 80%;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+#form>form>button{
+    height: 40px;
+    width: 40%;
+    margin-top: 25px;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+#form>form>h2{
+    color: white;
+}
+
+#tablepar {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: black;
+  }
+  
+  #tables {
+    height: auto;
+    width: 80%;
+    background-color: red;
+    display: table;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: auto;
+  }
+  
+  #tables th, td {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  
+  #tables th {
+    background-color: darkred;
+    border-radius: 10px;
+  }
+
